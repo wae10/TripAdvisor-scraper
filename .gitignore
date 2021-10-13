@@ -42,4 +42,4 @@ dist/
 build/
 __pycache__/
 chromedriver
-.spec
+*.spec
