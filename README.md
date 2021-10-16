@@ -60,19 +60,21 @@ Install packages
 conda install selenium
 ```
 ### Automatation Setup
-1. Make Python File Executable with PyInstaller
+#### 1. Make Python File Executable with PyInstaller
 ```
 pyinstaller --onefile main.py
 ```
-2. Schedule a Job with crontab
+#### 2. Schedule a Job with crontab
 Crontab Instructions
-a. Edit
+* Edit
 ```
 crontab -e
 ```
-b. Hit i to activate the INSERT mode
-c. Write the job (https://crontab.guru/)
+* Hit i to activate the INSERT mode
+* Write the job (https://crontab.guru/)
 ```
 55 23 * * * open /Users/williameverett/Desktop/TEG/Reviews/TripAdvisor/dist/main
 ```
-d. press esc . Then type : and write wq to save and exit (w - write, q - quit) and finally, press enter.
+* press esc 
+    * Then type : and write wq to save and exit (w - write, q - quit)
+    * and finally, press enter.
