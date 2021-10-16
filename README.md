@@ -65,8 +65,8 @@ conda install selenium
 pyinstaller --onefile main.py
 ```
 #### 2. Schedule a Job with crontab
-Crontab Instructions
-* Edit
+Crontab Instructions - Mac
+* Open Terminal and type:
 ```
 crontab -e
 ```
